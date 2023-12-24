@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <meta name="theme-color" content="#111111">
+   <title>Партнерская программа</title>
+   <link rel="preload" href="fonts/Montserrat-Medium.woff2" as="font" type="font/woff2" crossorigin>
+   <link rel="preload" href="fonts/Montserrat-Bold.woff2" as="font" type="font/woff2" crossorigin>
+   <link rel="preload" href="fonts/Montserrat-ExtraBold.woff2" as="font" type="font/woff2" crossorigin>
+   <link rel="preload" href="fonts/Montserrat-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
+   <link rel="stylesheet" href="css/vendor.css">
+   <link rel="stylesheet" href="css/main.css">
+   <script defer src="js/main.js"></script>
+
+</head>
+
+<body class="page__body">
+   <div class="site-container">
+      <header class="header header__lk">
+         <div class="container header__content">
+            <div class="header__fixed">
+               <a href="/" class="logo">
+                  <img loading="lazy" src="img/svg/logo.svg" class="image-contain" width="142" height="39"
+                     alt="carIn logo">
+               </a>
+               <div class="header__menu">
+                  <nav class="nav">
+                     <ul class="list-reset nav__list">
+                        <li class="nav__item">
+                           <a href="my-contributions.html" class="nav__link">Мои вклады</a>
+                        </li>
+                        <li class="nav__item">
+                           <a href="contribution.html" class="nav__link">Создать вклад</a>
+                        </li>
+                        <li class="nav__item _active">
+                           <a href="affiliate-program.html" class="nav__link">Партнерская программа</a>
+                        </li>
+                     </ul>
+                  </nav>
+                  <div class="header__actions">
+                     <a href="settings.html" class="header__settings">
+                        <svg>
+                           <use xlink:href="img/sprite.svg#settings"></use>
+                        </svg>
+                     </a>
+                     <button data-popupId="popupAuth"
+                        class="btn-reset btn __white header__action popup__link">Выход</button>
+                  </div>
+               </div>
+               <button class="btn-reset burger">
+                  <span class="burger__line"></span>
+                  <span class="burger__line"></span>
+                  <span class="burger__line"></span>
+                  <span class="burger__line"></span>
+               </button>
+            </div>
+         </div>
+      </header>
+      <main class="main">
+         <section class="dashboard">
+            <div class="container dashboard__container">
+               <div class="dashboard__content">
+                  <div class="dashboard__left">
+                     <div class="dashboard__statistic">
+                        <span class="dashboard__name">Реф. процент</span>
+                        <span class="dashboard__value">7%</span>
+                     </div>
+                     <div class="dashboard__statistic _blue">
+                        <span class="dashboard__name">Рефералов</span>
+                        <span class="dashboard__value">5 участников</span>
+                     </div>
+                     <div class="dashboard__statistic _green">
+                        <span class="dashboard__name">Доход</span>
+                        <span class="dashboard__value">657.12 RUB</span>
+                     </div>
+                     <button class="btn-reset btn __white dashboard__btn">Создать вклад</button>
+                  </div>
+                  <div class="dashboard__right">
+                     <div class="dashboard__manual">
+                        <div class="manual__left">
+                           <span class="manual__title">Как это работает?</span>
+                           <p class="manual__text">Клиент переходит по Вашей ссылке, проходит регистрацию и каждые 7% от
+                              его пополнений будут начисляться Вам на счёт. Для использования реферальной системы Вам
+                              нужно пригласить участника по своей реферальной ссылке ниже:</p>
+                           <span class="manual__name">Ссылка для приглашения</span>
+                           <div class="manual__block">
+                              <input type="text" class="input" readonly value="carinvest.com/?ref=ExtraMoney">
+                              <button class="btn-reset manual__copy">
+                                 <svg>
+                                    <use xlink:href="img/sprite.svg#copy"></use>
+                                 </svg>
+                              </button>
+                              <span class="manual__mes">текст скопирован</span>
+                           </div>
+                        </div>
+                        <div class="manual__cards">
+                           <div class="manual__card">
+                              <p class="manual__description">Приглашай друзей — получай <span>бонусы до</span></p>
+                              <span class="manual__percent">599%</span>
+                           </div>
+                           <div class="manual__card">
+                              <p class="manual__description">Увеличенные проценты по вкладам действуют уже сейчас!</p>
+                              <div class="manual__img">
+                                 <picture>
+                                    <source srcset="img/percent.webp" type="image/webp">
+                                    <img src="img/percent.png" class="image-contain" width="200" height="200"
+                                       alt="percent">
+                                 </picture>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="table _invites">
+                        <span class="table__title">История приглашений</span>
+                        <ul class="list-reset table__list">
+                           <li class="table__items">
+                              <span class="table__item">Логин</span>
+                              <span class="table__item">Сумма вклада</span>
+                              <span class="table__item">Доход</span>
+                           </li>
+                           <li class="table__items">
+                              <span class="table__item">+7999*********</span>
+                              <span class="table__item">15 000 RUB</span>
+                              <span class="table__item _blue">1 050 RUB</span>
+                           </li>
+                           <li class="table__items">
+                              <span class="table__item">+7999*********</span>
+                              <span class="table__item">15 000 RUB</span>
+                              <span class="table__item _blue">1 050 RUB</span>
+                           </li>
+                           <li class="table__items">
+                              <span class="table__item">+7999*********</span>
+                              <span class="table__item">15 000 RUB</span>
+                              <span class="table__item _blue">1 050 RUB</span>
+                           </li>
+                           <li class="table__items">
+                              <span class="table__item">+7999*********</span>
+                              <span class="table__item">15 000 RUB</span>
+                              <span class="table__item _blue">1 050 RUB</span>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </main>
+      <footer class="footer">
+         <div class="container footer__content">
+            <a href="/" class="logo">
+               <img loading="lazy" src="img/svg/logo.svg" class="image-contain" width="142" height="39"
+                  alt="carIn logo">
+            </a>
+            <div class="footer__links">
+               <nav class="footer__nav">
+                  <ul class="list-reset footer__nav__list">
+                     <li class="footer__nav__item">
+                        <a href="index.html#hero" class="footer__nav__link">Главная</a>
+                     </li>
+                     <li class="footer__nav__item">
+                        <a href="index.html#faq" class="footer__nav__link">FAQ</a>
+                     </li>
+                     <li class="footer__nav__item">
+                        <a href="index.html#offers" class="footer__nav__link">Как начать?</a>
+                     </li>
+                     <li class="footer__nav__item">
+                        <a href="#" class="footer__nav__link">Отзывы</a>
+                     </li>
+                  </ul>
+               </nav>
+               <div class="footer__policy">
+                  <a href="#" class="footer__link">Пользовательское соглашение</a>
+                  <a href="#" class="footer__link">Политика приватности</a>
+                  <a href="#" class="footer__link">Конфиденциальность</a>
+               </div>
+            </div>
+            <div class="footer__socials">
+               <a href="#" class="footer__social">
+                  <svg class="footer__svg">
+                     <use xlink:href="img/sprite.svg#social01"></use>
+                  </svg>
+               </a>
+               <a href="#" class="footer__social">
+                  <svg class="footer__svg">
+                     <use xlink:href="img/sprite.svg#social02"></use>
+                  </svg>
+               </a>
+               <a href="#" class="footer__social">
+                  <svg class="footer__svg">
+                     <use xlink:href="img/sprite.svg#social03"></use>
+                  </svg>
+               </a>
+            </div>
+         </div>
+      </footer>
+   </div>
+</body>
+
+</html>

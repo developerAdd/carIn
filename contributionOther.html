@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <meta name="theme-color" content="#111111">
+   <title>Создать вклад</title>
+   <link rel="preload" href="fonts/Montserrat-Medium.woff2" as="font" type="font/woff2" crossorigin>
+   <link rel="preload" href="fonts/Montserrat-Bold.woff2" as="font" type="font/woff2" crossorigin>
+   <link rel="preload" href="fonts/Montserrat-ExtraBold.woff2" as="font" type="font/woff2" crossorigin>
+   <link rel="preload" href="fonts/Montserrat-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
+   <link rel="stylesheet" href="css/vendor.css">
+   <link rel="stylesheet" href="css/main.css">
+   <script defer src="js/main.js"></script>
+
+</head>
+
+<body class="page__body">
+   <div class="site-container">
+      <header class="header header__lk">
+         <div class="container header__content">
+            <div class="header__fixed">
+               <a href="/" class="logo">
+                  <img loading="lazy" src="img/svg/logo.svg" class="image-contain" width="142" height="39"
+                     alt="carIn logo">
+               </a>
+               <div class="header__menu">
+                  <nav class="nav">
+                     <ul class="list-reset nav__list">
+                        <li class="nav__item">
+                           <a href="my-contributions.html" class="nav__link">Мои вклады</a>
+                        </li>
+                        <li class="nav__item _active">
+                           <a href="contribution.html" class="nav__link">Создать вклад</a>
+                        </li>
+                        <li class="nav__item">
+                           <a href="affiliate-program.html" class="nav__link">Партнерская программа</a>
+                        </li>
+                     </ul>
+                  </nav>
+                  <div class="header__actions">
+                     <a href="settings.html" class="header__settings">
+                        <svg>
+                           <use xlink:href="img/sprite.svg#settings"></use>
+                        </svg>
+                     </a>
+                     <button data-popupId="popupAuth"
+                        class="btn-reset btn __white header__action popup__link">Выход</button>
+                  </div>
+               </div>
+               <button class="btn-reset burger">
+                  <span class="burger__line"></span>
+                  <span class="burger__line"></span>
+                  <span class="burger__line"></span>
+                  <span class="burger__line"></span>
+               </button>
+            </div>
+         </div>
+      </header>
+      <main class="main">
+         <section class="dashboard">
+            <div class="container dashboard__container">
+               <div class="dashboard__content">
+                  <div class="dashboard__left">
+                     <div class="dashboard__statistic">
+                        <span class="dashboard__name">Ваш баланс</span>
+                        <span class="dashboard__value">0.00 RUB</span>
+                     </div>
+                     <div class="dashboard__statistic _blue">
+                        <span class="dashboard__name">Начислено</span>
+                        <span class="dashboard__value">159.45 RUB</span>
+                     </div>
+                     <div class="dashboard__statistic _green">
+                        <span class="dashboard__name">Активные</span>
+                        <span class="dashboard__value">10657.12 RUB</span>
+                     </div>
+                  </div>
+                  <div class="dashboard__right">
+                     <div class="dashboard__programm">
+                        <div class="partners__slider">
+                           <div class="swiper">
+                              <div class="swiper-wrapper">
+                                 <a href="#" class="swiper-slide partners__slide">
+                                    <div class="partners__back">
+                                       <span class="partners__name">Новичок</span>
+                                       <span class="partners__time">Срок: от 1 дня</span>
+                                       <div class="partners__item">
+                                          <span class="partners__subtitle">Суммы</span>
+                                          <span class="partners__value">От 100 рублей</span>
+                                          <span class="partners__value">До 500 000 рублей</span>
+                                       </div>
+                                       <div class="partners__item">
+                                          <span class="partners__subtitle">Процент</span>
+                                          <span class="partners__value">1% в день</span>
+                                       </div>
+                                    </div>
+                                 </a>
+                                 <a href="#" class="swiper-slide partners__slide __hit">
+                                    <div class="partners__back">
+                                       <span class="partners__name">Эксперт</span>
+                                       <span class="partners__time">Срок: от 3 дней</span>
+                                       <div class="partners__item">
+                                          <span class="partners__subtitle">Суммы</span>
+                                          <span class="partners__value">От 1 000 рублей</span>
+                                          <span class="partners__value">До 1 000 000 рублей</span>
+                                       </div>
+                                       <div class="partners__item">
+                                          <span class="partners__subtitle">Процент</span>
+                                          <span class="partners__value">1.5% в день</span>
+                                       </div>
+                                    </div>
+                                    <div class="partners__sale">Самый выгодный</div>
+                                 </a>
+                                 <a href="#" class="swiper-slide partners__slide">
+                                    <div class="partners__back">
+                                       <span class="partners__name">Инвестор</span>
+                                       <span class="partners__time">Срок: от 7 дней</span>
+                                       <div class="partners__item">
+                                          <span class="partners__subtitle">Суммы</span>
+                                          <span class="partners__value">От 100 000 рублей</span>
+                                          <span class="partners__value">До 5 000 000 рублей</span>
+                                       </div>
+                                       <div class="partners__item">
+                                          <span class="partners__subtitle">Процент</span>
+                                          <span class="partners__value">2% в день</span>
+                                       </div>
+                                    </div>
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="dashboard__creating">
+                        <form action="#" class="creating__left">
+                           <span class="creating__title">Оплата нового вклада</span>
+                           <div class="creating__item">
+                              <span class="creating__name">Тип</span>
+                              <div class="creating__select">
+                                 <div class="input creating__select-btn">
+                                    <span>Qiwi</span>
+                                 </div>
+                                 <ul class="list-reset creating__select-list">
+                                    <li class="creating__select-item">Qiwi</li>
+                                    <li class="creating__select-item">Qiwi</li>
+                                    <li class="creating__select-item">Qiwi</li>
+                                    <li class="creating__select-item">Qiwi</li>
+                                    <li class="creating__select-item">Qiwi</li>
+                                 </ul>
+                              </div>
+                           </div>
+                           <div class="creating__item">
+                              <span class="creating__name">Сумма</span>
+                              <input type="number" class="input" placeholder="0.00 RUB">
+                           </div>
+                           <button class="btn-reset btn __white dashboard__btn">Создать вклад</button>
+                        </form>
+                        <div class="creating__right">
+                           <span class="creating__title">Прочтите перед оплатой!</span>
+                           <p class="creating__text">Внимание, после оплаты вклад создается автоматически в разделе <a
+                                 href="#">Мои вклады</a></p>
+                           <div class="dashboard__sales">
+                              <div class="sale__item">
+                                 <div class="dashboard__sale">
+                                    <div class="sale__content">
+                                       <div class="sale__header">
+                                          <p class="sale__text">При пополнении на</p>
+                                          <span class="sale__number">1 000</span>
+                                       </div>
+                                       <span class="sale__value">+50 RUB</span>
+                                       <span class="sale__description">В ПОДАРОК</span>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="sale__item">
+                                 <div class="dashboard__sale">
+                                    <div class="sale__content">
+                                       <div class="sale__header">
+                                          <p class="sale__text">При пополнении на</p>
+                                          <span class="sale__number">10 000</span>
+                                       </div>
+                                       <span class="sale__value">+900 RUB</span>
+                                       <span class="sale__description">В ПОДАРОК</span>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="sale__item">
+                                 <div class="dashboard__sale">
+                                    <div class="sale__content">
+                                       <div class="sale__header">
+                                          <p class="sale__text">При пополнении на</p>
+                                          <span class="sale__number">100 000</span>
+                                       </div>
+                                       <span class="sale__value">+5 000 RUB</span>
+                                       <span class="sale__description">В ПОДАРОК</span>
+                                    </div>
+                                 </div>
+                              </div>
+
+                           </div>
+                        </div>
+                     </div>
+                     <div class="table">
+                        <span class="table__title">История пополнений</span>
+                        <ul class="list-reset table__list">
+                           <li class="table__items">
+                              <span class="table__item">Сумма</span>
+                              <span class="table__item">Доход</span>
+                              <span class="table__item">Время вклада</span>
+                              <span class="table__item">Время завершения</span>
+                              <span class="table__item">Статус</span>
+                           </li>
+                           <li class="table__items">
+                              <span class="table__item">10 000</span>
+                              <span class="table__item">15 000</span>
+                              <span class="table__item">5 дней</span>
+                              <span class="table__item">20.12.2023, 16:34</span>
+                              <span class="table__item _orange">В процессе</span>
+                           </li>
+                           <li class="table__items">
+                              <span class="table__item">10 000</span>
+                              <span class="table__item">15 000</span>
+                              <span class="table__item">5 дней</span>
+                              <span class="table__item">20.12.2023, 16:34</span>
+                              <span class="table__item _orange">В процессе</span>
+                           </li>
+                           <li class="table__items">
+                              <span class="table__item">10 000</span>
+                              <span class="table__item">15 000</span>
+                              <span class="table__item">5 дней</span>
+                              <span class="table__item">20.12.2023, 16:34</span>
+                              <span class="table__item _orange">В процессе</span>
+                           </li>
+                           <li class="table__items">
+                              <span class="table__item">10 000</span>
+                              <span class="table__item">15 000</span>
+                              <span class="table__item">5 дней</span>
+                              <span class="table__item">20.12.2023, 16:34</span>
+                              <span class="table__item _orange">В процессе</span>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </main>
+      <footer class="footer">
+         <div class="container footer__content">
+            <a href="/" class="logo">
+               <img loading="lazy" src="img/svg/logo.svg" class="image-contain" width="142" height="39"
+                  alt="carIn logo">
+            </a>
+            <div class="footer__links">
+               <nav class="footer__nav">
+                  <ul class="list-reset footer__nav__list">
+                     <li class="footer__nav__item">
+                        <a href="index.html#hero" class="footer__nav__link">Главная</a>
+                     </li>
+                     <li class="footer__nav__item">
+                        <a href="index.html#faq" class="footer__nav__link">FAQ</a>
+                     </li>
+                     <li class="footer__nav__item">
+                        <a href="index.html#offers" class="footer__nav__link">Как начать?</a>
+                     </li>
+                     <li class="footer__nav__item">
+                        <a href="#" class="footer__nav__link">Отзывы</a>
+                     </li>
+                  </ul>
+               </nav>
+               <div class="footer__policy">
+                  <a href="#" class="footer__link">Пользовательское соглашение</a>
+                  <a href="#" class="footer__link">Политика приватности</a>
+                  <a href="#" class="footer__link">Конфиденциальность</a>
+               </div>
+            </div>
+            <div class="footer__socials">
+               <a href="#" class="footer__social">
+                  <svg class="footer__svg">
+                     <use xlink:href="img/sprite.svg#social01"></use>
+                  </svg>
+               </a>
+               <a href="#" class="footer__social">
+                  <svg class="footer__svg">
+                     <use xlink:href="img/sprite.svg#social02"></use>
+                  </svg>
+               </a>
+               <a href="#" class="footer__social">
+                  <svg class="footer__svg">
+                     <use xlink:href="img/sprite.svg#social03"></use>
+                  </svg>
+               </a>
+            </div>
+         </div>
+      </footer>
+   </div>
+</body>
+
+</html>
